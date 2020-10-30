@@ -1,5 +1,8 @@
 import { createStore } from "redux";
-import pizzaOps from "./reducers/PizzaReducer";
-const store = createStore(pizzaOps);
+import {appReducer} from "./reducers/appReducer";
 
+const store = createStore(
+  appReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 export default store;

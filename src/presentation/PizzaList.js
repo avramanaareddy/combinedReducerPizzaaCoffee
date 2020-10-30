@@ -1,10 +1,10 @@
 import React from "react";
 
 function PizzasList(props) {
-  console.log(props);
+  console.log('in pizzas list: ',props);
   return (
     <ul>
-      {props.pizzas.map((pizza) => (
+      {props.pizzas.pizzas.map((pizza) => (
         <li key={pizza}>{pizza} </li>
       ))}
     </ul>
