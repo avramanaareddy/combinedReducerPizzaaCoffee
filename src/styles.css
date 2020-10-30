@@ -1,0 +1,9 @@
+.App {
+  width: 90%;
+  margin: auto;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+}

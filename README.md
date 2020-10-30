@@ -1,2 +1,2 @@
-# combinedReducerPizzaaCoffee
+# reactReduxPizza
 Created with CodeSandbox
